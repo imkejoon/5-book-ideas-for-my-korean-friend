@@ -1,0 +1,91 @@
+/* FONTS _______________________________________________________ */
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* box-sizing: content-box; */
+    padding:0;
+    margin: 0;
+    font-size: 30px;
+}
+
+img{
+    height: 300px
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+    background-color: pink;
+    padding: 100px
+}
+
+.spec{
+    
+    padding: 100px;
+    font-size: 10px;
+
+
+}
+
+
+/* Container1 _______________________________________________________ */
+.Container1{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.PContainer1{
+    padding-top:170px;
+    padding-right: 200px;
+    padding-bottom:170px;
+    text-align: left;
+}
+
+.Container1IMG{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px
+    
+}
+
+/* Container2 _______________________________________________________ */
+.Container2{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+  
+    grid-gap: 1em;
+}
+
+.PContainer2{
+    padding-top:150px;
+    padding-left: 200px;
+    
+}
+
+.Container2IMG{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-bottom: 100px;
+}
+/* IMG EDIT/ colours _______________________________________________________ */
+
+#bisque{
+    background-color: bisque;
+}
+#lightblue{
+    background-color: lightblue;
+}
+#orange{
+    background-color: hsl(24, 100%, 80%);
+}
+
+#purple{
+    background-color: hsl(271, 100%, 93%);
+}
+
+#green{
+    background-color: hsl(120, 50%, 80%);
+}
+
